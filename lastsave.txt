@@ -1,0 +1,78 @@
+
+R version 4.2.0 (2022-04-22 ucrt) -- "Vigorous Calisthenics"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R es un software libre y viene sin GARANTIA ALGUNA.
+Usted puede redistribuirlo bajo ciertas circunstancias.
+Escriba 'license()' o 'licence()' para detalles de distribucion.
+
+R es un proyecto colaborativo con muchos contribuyentes.
+Escriba 'contributors()' para obtener más información y
+'citation()' para saber cómo citar R o paquetes de R en publicaciones.
+
+Escriba 'demo()' para demostraciones, 'help()' para el sistema on-line de ayuda,
+o 'help.start()' para abrir el sistema de ayuda HTML con su navegador.
+Escriba 'q()' para salir de R.
+
+> todas_las_cartas<-c("A",2:10,"J","Q","K")
+> cartas<-c(rep(todas_las_cartas,4))
+> tipos_de_cartas<-c("Corazon", "Diamante", "Trebol", "Espada")
+> tipos<-c(rep(tipos_de_cartas,rep(13,4)))
+> baraja=data.frame(cartas,tipos)
+> baraja
+   cartas    tipos
+1       A  Corazon
+2       2  Corazon
+3       3  Corazon
+4       4  Corazon
+5       5  Corazon
+6       6  Corazon
+7       7  Corazon
+8       8  Corazon
+9       9  Corazon
+10     10  Corazon
+11      J  Corazon
+12      Q  Corazon
+13      K  Corazon
+14      A Diamante
+15      2 Diamante
+16      3 Diamante
+17      4 Diamante
+18      5 Diamante
+19      6 Diamante
+20      7 Diamante
+21      8 Diamante
+22      9 Diamante
+23     10 Diamante
+24      J Diamante
+25      Q Diamante
+26      K Diamante
+27      A   Trebol
+28      2   Trebol
+29      3   Trebol
+30      4   Trebol
+31      5   Trebol
+32      6   Trebol
+33      7   Trebol
+34      8   Trebol
+35      9   Trebol
+36     10   Trebol
+37      J   Trebol
+38      Q   Trebol
+39      K   Trebol
+40      A   Espada
+41      2   Espada
+42      3   Espada
+43      4   Espada
+44      5   Espada
+45      6   Espada
+46      7   Espada
+47      8   Espada
+48      9   Espada
+49     10   Espada
+50      J   Espada
+51      Q   Espada
+52      K   Espada
+> save.image("E:\\keitL\\UMSA 2022\\SEMESTRE I-2022\\319\\pregunta_4")
+> 
